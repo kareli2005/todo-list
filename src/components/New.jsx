@@ -38,7 +38,7 @@ const New = ({showNew, setShowNew, updateNotes}) => {
   }
 
   return (
-    <div className={`w-screen h-screen fixed flex justify-center items-center duration-300 ${showNew? 'bg-opacity-50 bg-black z-[100]' : 'opacity-0 pointer-events-none p-4'}`}>
+    <div className={`w-screen h-screen fixed flex justify-center items-center duration-300 p-4 ${showNew? 'bg-opacity-50 bg-black z-[100]' : 'opacity-0 pointer-events-none'}`}>
         <div className={`w-full h-full max-w-[500px] max-h-[300px] border border-light rounded-2xl flex flex-col justify-between items-center px-8 py-6 duration-300 ${darkTheme? 'bg-dark' : 'bg-light'} ${showNew? 'scale-100' : 'scale-0'}`}>
             <div className='felx flex-col w-full items-center justify-start text-center text-lg'>
                 <p className={darkTheme? 'text-light font-bold w-full': 'text-dark font-bold text-center w-full'}>NEW NOTE</p>

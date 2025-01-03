@@ -69,7 +69,7 @@ const App = () => {
           }
         </div>
         <div className='fixed bottom-0 transparent max-w-[750px] w-full flex items-center justify-end pb-10'>
-          <div onClick={() => setShowNew(true)} className='bg-purple select-none rounded-full cursor-pointer hover:rotate-90 duration-300 shadow-purple hover:bg-purple-dark border-2 border-purple'>
+          <div onClick={() => setShowNew(true)} className='bg-purple select-none rounded-full cursor-pointer hover:rotate-90 duration-300 shadow-purple hover:bg-purple-dark border-2 border-purple mr-2'>
             <img src={plus} alt='plus-icon' className='p-3' />
           </div>
         </div>

@@ -48,7 +48,7 @@ const NoteComp = ({ noteData, index, updateNotes }) => {
           {index !== 0 && <div className='max-w-2/3 border border-purple' />}
         </>
       ) : (
-        <div onClick={handleCheck} className='w-2/3 flex flex-col cursor-default max-w-[500px] gap-2 py-2'>
+        <div onClick={handleCheck} className='sm:w-2/3 w-full flex flex-col cursor-default max-w-[500px] gap-2 p-2'>
           {index !== 0 && <div className='w-full border border-purple' />}
           <div className='flex justify-start items-start w-full py-2 gap-4'>
             <div className='w-full flex gap-4 items-start justify-start'>

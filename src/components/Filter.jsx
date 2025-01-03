@@ -24,7 +24,7 @@ const Filter = ({data, setFilteredData}) => {
   }, [filter, data])
 
   return (
-    <div onClick={() => setIsClicked(!isClicked)} className={`relative z-20 pl-2 px-4 w-40 gap-8 py-2 select-none rounded-lg flex items-center justify-around cursor-pointer text-light font-semibold hover:shadow-purple-cover ${isClicked? 'bg-purple-dark shadow-purple-cover' : 'bg-purple shadow-purple'}`}>
+    <div onClick={() => setIsClicked(!isClicked)} className={`relative z-20 pl-2 px-6 sm:px-4 w-auto duration-300 sm:w-40 gap-8 py-2 select-none rounded-lg flex items-center justify-between cursor-pointer text-light font-semibold hover:shadow-purple-cover ${isClicked? 'bg-purple-dark shadow-purple-cover' : 'bg-purple shadow-purple'}`}>
       <p>{filter}</p>
       {isClicked? <img src={arrowUp} alt="arrow-up" /> : <img src={arrowDown} alt="arrow-down" />}
         <ul className={`duration-300 font-normal absolute top-[calc(100%+6px)] w-full left-0 right-0 rounded-lg bg-light text-purple shadow-purple-cover flex-col flex justify-start items-center ${isClicked? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>

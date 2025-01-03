@@ -19,6 +19,7 @@ export default {
       },
       boxShadow: {
         'purple-cover': '0 0 0 3px rgba(108, 99, 255, 0.4)',
+        'purple-light-cover': '0 0 0 3px rgba(108, 99, 255, 1)',
         'purple': '0 0 5px 0 rgba(108, 99, 255, 0.4)',
         'light-dark-cover': '0 0 0 3px rgba(255, 255, 255, 0.4)'
       },
